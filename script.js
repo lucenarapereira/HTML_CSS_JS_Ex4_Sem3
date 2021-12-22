@@ -4,7 +4,8 @@ function Hour(){
   let currentMinute = currentDate.getMinutes();
   let currentSecond = currentDate.getSeconds();
 
-  let clock = `${currentHour}:${currentMinute}:${currentSecond}`;
+  //let clock = `${currentHour}:${currentMinute}:${currentSecond}`;
+  let clock = `${currentHour}:${currentMinute}`;
   let display = document.getElementById('hour');
 
   display.innerText = `${clock}`;
